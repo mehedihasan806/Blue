@@ -1,0 +1,327 @@
+body{
+	margin: 0%;
+	padding: 0%;
+}
+/*  header part start*/
+header{
+	background-color: #121B2A;
+	padding: 10px;
+
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+/*	border:1px solid white; */
+	margin: 0 auto;
+
+}
+.logo{
+	width: 20%;
+/*	border:1px solid white;  */
+	float: left;
+
+
+}
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	width: 80%;
+/*	border:1px solid white; */
+	float: right;
+	margin-top:35px;
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 100%;
+	color: white;
+	transition: .10s;
+	text-decoration:none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	display: block;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0077BC;
+}
+
+/*  header part end*/
+
+/*Banner start*/
+
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  center;
+}
+.banner_text{
+/*	border: 1px solid red; */
+	width: 50%;
+	margin-top: 200px;
+	margin-bottom: 80px;
+
+}
+
+.banner_text h1{
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+
+
+
+}
+
+.banner_text h2{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #0077BC;
+	margin: 0;
+
+}
+
+.banner_text p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	margin: 0 0 30px;
+	line-height: 30px;
+
+
+}
+
+.banner_text button{
+	font-size: 18px;
+	color: #5A5A5A;
+	border: none;
+	padding: 15px 40px;
+	background-color: white;
+	text-transform: uppercase;
+	
+}
+
+/*Banner end*/
+
+/*service start */
+.service {
+	background-color: #121B2A;
+	padding: 30px 0 10px;
+}
+
+.single{
+	width: 30%;
+	border-right: 1px solid white;
+	padding: 10px;
+	float: left;
+}
+.single:last-child{
+	border-right: 0;
+}
+.top {
+	overflow: hidden;
+}
+.icon {	
+	width: 20%;
+/*	border: 1px solid white;*/
+	overflow: hidden;
+	float: left;
+}
+.icon img{
+	width: 100%; 
+}
+.contant {
+	width: 65%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 0px;
+    margin-left: 5px;
+}
+.contant h1{
+	    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+    margin: 5px 0px;
+    padding: 4px;
+}
+.contant h2{
+    font-family: sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #0078BD;
+	margin: 0 0;
+}
+.bottom {
+}
+.bottom p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 20 0 20px;
+    line-height: 20px;
+}
+
+/*service end */
+
+
+/* Contact service start */
+
+.service_address {
+	background-color: #040811;
+	overflow: hidden;
+
+}      
+
+.contact {
+	width: 32%;
+	/*border: 1px solid red;*/
+	float: left;
+
+
+}
+
+.contact h3{
+	font-family: sans-serif;
+    font-size: 20px;
+    color: #B4B5B7;
+    margin: 20 0 20px;
+    line-height: 25px;
+
+}
+.contact address{
+	font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: initial;
+    color: #B4B5B7;
+    margin: 20px 0 25px;
+    line-height: 20px;
+}
+
+.bottom {
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: initial;
+    color: #B4B5B7;
+    margin: 0;
+    line-height: 18px;
+}
+
+.contact{
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: initial;
+    color: #B4B5B7;
+    margin: 20px 0 25px;
+    line-height: 20px;
+    
+    
+}
+.phone{
+	width: 30%;
+	float: left;
+}
+.phone img{
+	width: 100%;
+}
+.google_play{
+	float: left
+	width:30%;
+}
+.google_play img{ 
+	width: 50%;
+
+}
+/* Contact service end */
+
+/* footer service start */
+
+footer{
+	background-color: #121B2A;
+}
+
+.wrapper {
+}
+
+.footer_menu {
+	width: 50%;
+	float: left;
+	margin-top:15px;
+}
+
+.link {
+	width: 100%;
+}
+.link ul{
+	float: left;
+    margin: 10px 0px 15px 0px;
+    padding: 0px;
+}
+.link ul li{
+	list-style: none;
+	float: left;
+}
+.link ul li a{
+	font-family: sans-serif;
+	font-size: 100%;
+	color: white;
+	text-decoration:none;
+	padding: 0 8px;
+	display: block;
+}
+#color{ 
+	margin: 10px;
+	color: white;
+}
+
+.footer_icon {
+	overflow: hidden;
+	width: 40%;
+
+}
+
+.footer_text {
+	font-size: 20px;
+	float: left;
+	color: #424A57;
+    margin: -20px 0px 0px 10px;
+
+}
+
+.footer_logo {
+	float: right;
+}
+
+/* footer service end */
+
+
+
+
+
+
+
+
+
+
+
+
